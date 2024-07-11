@@ -1,3 +1,6 @@
-<p>
-  button works!
-</p>
+<ion-button [class]="'button '+class" [shape]="shape" [size]="size" [fill]="fill" [color]="color">
+  @if (icon) {
+  <ion-icon [slot]="slotIcon" [ios]="iconIos" [md]="iconMd"></ion-icon>
+  }
+  {{text}}
+</ion-button>
