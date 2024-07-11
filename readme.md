@@ -40,7 +40,7 @@ src/
 │   └── services/           (Serviços para dados, autenticação, etc.)
 ├── assets/                (Imagens, ícones, fontes)
 ├── environments/          (Configurações de ambiente)
-├── theme/                 (Variáveis e estilos globais do Tailwind)
+├── theme/                 (Variáveis e estilos globais)
 ```
 
 ### Tasks sctructure
@@ -48,7 +48,6 @@ src/
 To guide our development we design a workflow at notion that consists in a project related to tasks, each task has a corresponding sprint, priority(Dragon effort)
 
 ## Stack
-* [Tailwind](https://tailwindcss.com) - estilização
 * [Rxjs]() - State management
 * AngularJS
 * Firebase
